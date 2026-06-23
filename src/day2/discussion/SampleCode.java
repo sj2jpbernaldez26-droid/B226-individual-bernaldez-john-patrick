@@ -8,6 +8,8 @@ public class SampleCode { // class
     }
 }
 
+// Syntax -> Structure pf code
+// Syntax Rule -> Syntax Error
 // Main Method(psvm) -> starting point of programs execution
 // Print Statement (sout) -> it tells the computer to print something
 /*
