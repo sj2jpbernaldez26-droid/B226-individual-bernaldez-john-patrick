@@ -58,7 +58,7 @@ public class Activity8_Bernaldez {
             System.out.printf("%-12s", sub);
         }
         System.out.printf("%-10s%n", "Average");
-        System.out.println("----------------------------------------");
+        System.out.println("========================================");
 
         // Table Rows
         for (int s = 0; s < numStudents; s++) {
