@@ -9,41 +9,41 @@ public class Activity9_Bernaldez {
     
     public static void main(String[] args) {
 
-        String country = "Philippines";
-
-        //Display first and last character
-        System.out.println("First Character: " + country.charAt(0));
-        System.out.println("Last Character: " + country.charAt(country.length() - 1));
-
-        // Count P or p
-        int countP = 0;
-
-        for (int i = 0; i < country.length(); i++) {
-            if (country.charAt(i) == 'P' || country.charAt(i) == 'p') {
-                countP++;
-            }
-        }
-
-        System.out.println("Number of P/p: " + countP);
-
-        // Count vowels
-        int vowels = 0;
-
-        for (int i = 0; i < country.length(); i++) {
-
-            char letter = country.charAt(i);
-
-            if (letter == 'a' || letter == 'A' ||
-                letter == 'e' || letter == 'E' ||
-                letter == 'i' || letter == 'I' ||
-                letter == 'o' || letter == 'O' ||
-                letter == 'u' || letter == 'U') {
-
-                vowels++;
-            }
-        }
-
-        System.out.println("Number of vowels: " + vowels);
+//        String country = "Philippines";
+//
+//        //Display first and last character
+//        System.out.println("First Character: " + country.charAt(1));
+//        System.out.println("Last Character: " + country.charAt(country.length() - 1));
+//
+//        // Count P or p
+//        int countP = 0;
+//
+//        for (int i = 0; i < country.length(); i++) {
+//            if (country.charAt(i) == 'P' || country.charAt(i) == 'p') {
+//                countP++;
+//            }
+//        }
+//
+//        System.out.println("Number of P/p: " + countP);
+//
+//        // Count vowels
+//        int vowels = 0;
+//
+//        for (int i = 0; i < country.length(); i++) {
+//
+//            char letter = country.charAt(i);
+//
+//            if (letter == 'a' || letter == 'A' ||
+//                letter == 'e' || letter == 'E' ||
+//                letter == 'i' || letter == 'I' ||
+//                letter == 'o' || letter == 'O' ||
+//                letter == 'u' || letter == 'U') {
+//
+//                vowels++;
+//            }
+//        }
+//
+//        System.out.println("Number of vowels: " + vowels);
         
         //contains() -> Checks if a string contains a specified sequence of characters. Returns true or false.
             //    String str = "Hello Java"; 
@@ -53,13 +53,13 @@ public class Activity9_Bernaldez {
            //     String str = "Programming";
            // System.out.println(str.endsWith("ing")); // true
            
-        // startsWith() -> Checks if a string starts with the specified prefix.
-            //    String str = "Programming";
-            //System.out.println(str.startsWith("Pro")); // true
-            
+        //startsWith() -> Checks if a string starts with the specified prefix.
+//                String str = "Programming";
+//            System.out.println(str.startsWith("gram")); // true
+//            
         // indexOf() -> Returns the position of the first occurrence of a character or substring.
-            // String str = "Hello";
-            //System.out.println(str.indexOf("e")); // 1
+//            String str = "Hello";
+//            System.out.println(str.indexOf("e")); // 1
             
         //isEmpty() -> Checks whether the string is empty.
             //  String str = "";
@@ -70,8 +70,8 @@ public class Activity9_Bernaldez {
         //System.out.println(str.trim()); // Hello
         
         //replace() -> Replaces characters or strings with another value.
-        // String str = "Java";
-        // System.out.println(str.replace("a","o")); // Jovo
+//       String str = "Java";
+//        System.out.println(str.replace("a","o")); // Jovo
         
         // toCharArray() -> Converts a string into a character array.
         // String str = "Java"; char[] ch = str.toCharArray(); for(char c : ch){ 
