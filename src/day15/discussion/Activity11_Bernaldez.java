@@ -18,7 +18,7 @@ public class Activity11_Bernaldez {
 
             while (duplicate) {
                 duplicate = false;
-
+                
                 // Check if the number already exists
                 for (int j = 0; j < i; j++) {
                     if (lotto[j] == number) {
