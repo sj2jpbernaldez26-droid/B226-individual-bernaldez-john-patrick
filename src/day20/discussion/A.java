@@ -1,0 +1,21 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package day20.discussion;
+
+public class A {
+    
+    //variable
+    public String name = "Winter";
+    
+    // method
+   public void printNmae(){}
+   
+   
+    public static void main(String[] args) {
+        A a = new A();
+        
+    }
+}
