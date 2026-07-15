@@ -3,15 +3,16 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package day20.discussion;
+package day24.discussion.interfacee;
 
 
-public class B {
+public class Main {
     
     public static void main(String[] args) {
-        A a = new A();
-        System.out.println(a.name);
-        a.printName();
+        Person person = new Father();
+        person.role();
+        
+        
         
     }
 }

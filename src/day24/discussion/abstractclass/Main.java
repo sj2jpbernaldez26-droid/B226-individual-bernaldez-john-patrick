@@ -3,12 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package day23.discussion;
+package day24.discussion.abstractclass;
 
-/**
- *
- * @author AMD Ryzen 5 5600g
- */
-public class NewClass {
+public class Main {
     
 }

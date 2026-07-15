@@ -3,15 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package day20.discussion;
+package day23.discussion.overriding;
 
-
-public class B {
+/**
+ *
+ * @author AMD Ryzen 5 5600g
+ */
+public class Person {
     
-    public static void main(String[] args) {
-        A a = new A();
-        System.out.println(a.name);
-        a.printName();
-        
+    public void role () {
+        System.out.println("I am a Person");
     }
 }

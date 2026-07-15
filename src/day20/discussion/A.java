@@ -5,17 +5,18 @@
  */
 package day20.discussion;
 
+
 public class A {
     
-    //variable
-    public String name = "Winter";
+    // variable
+    protected String name = "Winter";
     
-    // method
-   public void printNmae(){}
-   
-   
+    // method 
+    protected void printName(){ System.out.println("Winter");}
+    
+    
     public static void main(String[] args) {
         A a = new A();
-        
+        a.printName();
     }
 }
