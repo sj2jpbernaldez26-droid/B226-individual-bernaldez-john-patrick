@@ -30,11 +30,12 @@ public class ArrayListDiscussion {
         System.out.println(cars);
     }
 }
-
 /*
 CRUD Operation
-Create
-Read
-Update 
-Delete
+    Create -> add()
+    Read -> get()
+    Update -> set()
+    Delete -> remove()
+    
+    Delete All -> removeAll() / clear()
 */
