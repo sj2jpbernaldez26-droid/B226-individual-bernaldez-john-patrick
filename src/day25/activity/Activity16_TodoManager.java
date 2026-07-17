@@ -37,6 +37,7 @@ public class Activity16_TodoManager {
             switch (choice) {
 
                 case 1:
+                    System.out.println("==== Add a Task ====");
                     System.out.println("Enter a new tasks: ");
                     String task = scanner.nextLine();
                     tasks.add(task);
@@ -46,6 +47,7 @@ public class Activity16_TodoManager {
 
                 case 2:
 
+                    System.out.println("===== All Task ====");
                     if (tasks.isEmpty()) {
                         System.out.println("No tasks available.");
                     } else {
@@ -58,6 +60,7 @@ public class Activity16_TodoManager {
 
                 case 3:
 
+                    System.out.println("==== Updating Task ====");
                     if (tasks.isEmpty()) {
                         System.out.println("No tasks to update.");
                     } else {
@@ -85,6 +88,7 @@ public class Activity16_TodoManager {
 
                 case 4:
 
+                    System.out.println("==== Remove a Task ====");
                     if (tasks.isEmpty()) {
                         System.out.println("No tasks to remove.");
                     } else {
